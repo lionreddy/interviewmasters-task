@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "pradeep simha",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

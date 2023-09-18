@@ -12,7 +12,7 @@ app.use(express.json({ limit: "10mb" }));
 const PORT = process.env.PORT || 8080;
 
 //mongodb connection
-console.log(process.env.MONGODB_URL)
+
 mongoose.set("strictQuery", false);
 mongoose
   .connect("mongodb+srv://jbkpsr1999:jakkula99@cluster0.9xvvrhp.mongodb.net/users?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
